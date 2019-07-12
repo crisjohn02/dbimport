@@ -5,7 +5,7 @@
 composer require crisjohn02/dbimport
 ```
 
-##### To export your database
+##### To export your database (exported sql file will be found at your laravel root folder)
 ```
 php artisan export:db
 ```
