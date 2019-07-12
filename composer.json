@@ -1,0 +1,25 @@
+{
+    "name": "crisjohn02/dbimport",
+    "description": "SQL file importer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cris",
+            "email": "crisjohnreytarpin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Crisjohn02\\Dbimport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crisjohn02\\Dbimport\\DbImportServiceProvider"
+            ]
+        }
+    }
+}
